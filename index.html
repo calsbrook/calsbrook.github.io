@@ -118,12 +118,28 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
+            <br><br><br><br><br><br>
             <h2 class="section-heading text-uppercase">Portfolio</h2>
             <h3 class="section-subheading text-muted">Apps I've made</h3>
           </div>
         </div>
-        <div class="row">
 
+        
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/portfolio/allForOne.png" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>All for One</h4>
+                <p class="text-muted">C#, Unity2D, itch.io</p>
+              </div>
+            </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
@@ -139,20 +155,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/battleship2.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Battleship</h4>
-              <p class="text-muted">JavaScript, HTML, CSS</p>
-            </div>
-          </div>
+          
 
           <div class="col-md-4 col-sm-6 portfolio-item">
               <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
@@ -168,6 +171,21 @@
                 <p class="text-muted">Discord.js, Javascript, Discord API, EC2</p>
               </div>
             </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="img/portfolio/battleship2.png" alt="">
+                </a>
+                <div class="portfolio-caption">
+                  <h4>Battleship</h4>
+                  <p class="text-muted">JavaScript, HTML, CSS</p>
+                </div>
+              </div>
 
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
@@ -198,6 +216,7 @@
               <p class="text-muted">Spotify API, MongoDB, Node, Express</p>
             </div>
           </div>
+          
     </section>
 
     <!-- Skills -->
@@ -438,6 +457,41 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                <div class="rl"></div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <div class="modal-body">
+                    <!-- Project Details Go Here -->
+                    <h2 class="text-uppercase">All for One</h2>
+                    <p class="item-intro text-muted">C#, Unity2D, itch.io</p>
+                    <a target="_blank" href="https://calsbrook.itch.io/all-for-one">Play the game</a> |
+                    <a target="_blank" href="https://github.com/calsbrook/SSJ-3-Buttons-3-Colors">See the code</a>
+                    <img class="img-fluid d-block mx-auto" src="img/portfolio/allForOneScreenshot.png" alt="">
+                    <p>A game I made for PIGSquad Summer Slow Jam: 3 Buttons, 3 colors.  The challenge was to make a game from scratch in a week, the catch being that it could only use three colors, and three buttons.  This was my first time working with Unity.  The game itself revolves around using the deaths of your previous lives to progress through the level.<br>I designed the game, programmed it, and even composed the sweet chill music.</p>
+                    <ul class="list-inline">
+                      <li>Date: July 2019</li>
+                      <li>Time taken: 1 Week</li>
+                    </ul>
+                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                      <i class="fa fa-times"></i>
+                      Close Project</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
